@@ -15,6 +15,9 @@ In this app we will be dealing with the usage of ```Future```, ```async``` and `
 
 * Visit My Channel for more Flutter Tutorials 👉: https://www.youtube.com/channel/UCBC_Z7jla1GSITcqLKAtPxQ 
 
+
+## License
+
 ```
 MIT License
 
