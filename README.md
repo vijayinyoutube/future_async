@@ -12,6 +12,7 @@
 In this app we will be dealing with the usage of ```Future```, ```async``` and ```await``` syntax.
 
 
+* Check out the video tutorial 👉: https://youtu.be/D2wqnoRNVeI
 
 * Visit My Channel for more Flutter Tutorials 👉: https://www.youtube.com/channel/UCBC_Z7jla1GSITcqLKAtPxQ 
 
