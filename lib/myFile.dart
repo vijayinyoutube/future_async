@@ -1,5 +1,3 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
 
 class MyFileClass extends StatefulWidget {
@@ -16,7 +14,7 @@ class _MyFileClassState extends State<MyFileClass> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Example App"),
+        title: Text("Example app"),
       ),
       body: Center(
         child: Container(
@@ -25,25 +23,25 @@ class _MyFileClassState extends State<MyFileClass> {
             onPressed: () {
               myFunction1();
             },
-            child: Text("Click Me"),
+            child: Text("Click me"),
           ),
         ),
       ),
     );
   }
+}
 
-  Future<void> myFunction1() async {
-    print("Initial Value: $value");
-    value = await myFunction2();
-    print("Updated Value: $value");
-  }
+Future<void> myFunction1() async {
+  print("Initial Value $value");
+  value = await myFunction2();
+  print("Updated Value $value");
+}
 
-  Future<int> myFunction2() async {
-    print("called 1");
-    await Future.delayed(const Duration(milliseconds: 500), () {
-      value = 1;
-    });
-    print("called 2");
-    return value;
-  }
+Future<int> myFunction2() async {
+  print("Begin");
+  await Future.delayed(Duration(seconds: 5), () {
+    value = 1;
+  });
+  print("End");
+  return value;
 }
